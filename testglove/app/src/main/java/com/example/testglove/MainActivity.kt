@@ -313,6 +313,8 @@ class MainActivity : AppCompatActivity() {
                 "Overall Latency: ${formattedOverallLatency}ms\n" +
                 "Average Per-Token Latency: ${formattedAverageTokenLatency}ms"
 
+        Log.d("MainActivity", topQuestions)
+
         resultView!!.text = resultText
     }
 
